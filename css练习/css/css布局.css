@@ -1,0 +1,25 @@
+.child{
+	border: dashed 1px;
+}
+.ex1 .parent{
+	text-align: center;
+}
+.ex1 .child{
+	display: inline-block;
+}
+.ex2,.ex1,.ex3,.ex4{
+	margin-top: 20px;
+}
+.ex2 .child{
+	width: 200px;margin: 0 auto;
+}
+.ex3 .child{
+	display: table;margin: 0 auto;
+}
+.ex4 .parent{position: relative;
+	
+}
+.ex4 .child{width:400px;position: absolute;left: 50%;
+/*transform:translateX(-50%) ;
+ */
+}

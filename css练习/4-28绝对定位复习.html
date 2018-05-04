@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>绝对定位复习</title>
+		<style type="text/css">
+			.container{
+				position: relative;
+			}
+			.main,.left,.right{
+				min-height: 50px;
+				position: absolute;
+				top: 0px;
+			}
+			.main{
+				background-color: #8C8C8C;
+				
+			margin: 0 300px 0 200px;
+			}
+			.left{
+				width: 200px;
+				background-color: red;
+				position: absolute;
+				left: 0;
+			}
+			.right{
+				width: 300px;
+				background-color: green;
+				position: absolute;
+				right: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="main">main Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta inventore tempore mollitia amet. Harum vel tempore repellat pariatur deleniti rerum ipsum molestiae omnis nam saepe quam fugiat placeat alias asperiores?</div>
+			<div class="left">left</div>
+			<div class="right">right</div>
+		</div>
+	</body>
+</html>

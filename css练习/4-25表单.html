@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>4-25表单实例</title>
+		<style type="text/css">
+			header,footer{
+				height: 50px;
+				background-color: #C0C0C0;
+			}
+			#guild{
+				line-height: 50px;
+				text-align: center;
+			}
+			.main,.left,.right{
+				min-height: 130px;
+				float: left;
+				
+				
+			}
+			.content{
+				padding: 0 300px 0 200px;
+			}
+			.main{
+				width: 100%;
+				background-color:#CCCCCC;
+				font-size: 18px;
+				text-align: center;
+			}
+			.left{
+				width: 200px;
+				background-color:#CE8483;
+				margin-left: -100%;
+				position: relative;
+				left: -200px;
+				
+				
+			}
+			.right{
+				width: 300px;
+				background-color: green;
+				margin-left: -300px;
+				position: relative;
+				right: -300px;
+			}
+			footer{
+				background-color: #CCCCCC;
+				clear: both;
+			}
+			.main p{
+				font-size: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<span id="guild">
+			表单的类型有 文本 text,密码 password,单选 radio,多选 checkbox ,
+			按钮 button ,隐藏 hidden,重置 reset,提交 submit,
+			下拉菜单  select
+			
+			
+			</span>
+		</header>
+		<div class="content">
+		<div class="main">
+			<p>
+				注册用表单
+			</p>
+			<div class="form">
+				<form action="3-16.html" method="get">
+					账号:<input type="text" name="name" id="name" value="name" />
+					密码:<input type="password" name="password" id="" value="" />
+					性别:男<input type="radio" name="sex" id="sex" value="male"/><label for="sex"></label>
+					女 <input type="radio" name="sex" id="sexfemale" value="female"/><label for="sexfelmale"></label>
+					
+					<input type="submit" value="sub"/>
+				</form>
+			</div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis repudiandae dolore enim nisi sunt exercitationem aliquam numquam perspiciatis labore sed quia aut ullam in delectus itaque. Error corporis laboriosam soluta?
+		
+		
+		</div>
+		
+		<div class="left"><label> 标签为 input 元素定义标注（标记）。
+label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用户改进了可用性。如果您在 label 元素内点击文本，就会触发此控件。就是说，当用户选择该标签时，浏览器就会自动将焦点转到和标签相关的表单控件上。
+<label> 标签的 for 属性应当与相关元素的 id 属性相同。</div>
+		<div class="right">right</div>
+		</div>
+		<footer>footer</footer>
+	</body>
+</html>
+

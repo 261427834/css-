@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>表格练习</title>
+		<style type="text/css">
+			body{
+				font-family: "微软雅黑";
+			}
+			p {
+				
+				text-align: center;
+				/*line-height: ;*/
+				text-indent: 2em;
+			}
+			.main{
+				margin: 0 auto;
+				border:1px solid #0066CC;
+				width: 300px;
+				 
+			}
+			.table1{
+				
+				width: 280px;
+				margin: 0 auto;
+				border:2px #008000;
+				border-style: dashed; 
+				padding: 5px;
+			}
+			div.main p{
+				text-align: center;
+			}
+			div table{
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>表格练习</h1>
+		<div class="content">
+			<p>
+				表格标签为 table,表格行为tr,单元格为td,表头为caption,caption是表格标题,一个表格只能有一个标题.
+				
+			</p>
+			<div class="main">
+
+				<p>
+					考试成绩表实例
+				</p>
+				<div class="table1">
+			<table border="" cellspacing="" cellpadding="">
+				<caption>考试成绩表</caption>
+				<tr><th>姓名</th>
+					<th>语文</th>
+					<th>数学</th>
+					<th>英语</th>
+				</tr>
+				<tr>
+					<td>小明</td>
+				  <td>80</td>
+				  <td>80</td>
+				  <td>80</td>
+				</tr>
+				<tr>
+					<td>小红</td>
+					<td>90</td>
+					<td>90</td>
+					<td>90</td>
+				</tr>
+				<tr>
+					<td>小杰</td>
+					<td>100</td>
+					<td>100</td>
+					<td>100</td>
+				</tr>
+			</table>
+			</div>
+			</div>
+		<hr />
+		<p>
+			表格的语义化:加入了三个标签 thead,tbody,tfoot ,分别为表头,表身和表脚. 加入以后表现的样式没有变化,但是增强表格的语义化.
+		</p><div class="main">
+
+				<p>
+					考试成绩表实例
+				</p>
+				<div class="table1">
+			<table border="" cellspacing="" cellpadding="">
+				<caption>考试成绩表</caption>
+				<thead>
+				<tr><th>姓名</th>
+					<th>语文</th>
+					<th>数学</th>
+					<th>英语</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>小明</td>
+				  <td>80</td>
+				  <td>80</td>
+				  <td>80</td>
+				</tr>
+				<tr>
+					<td>小红</td>
+					<td>90</td>
+					<td>90</td>
+					<td>90</td>
+				</tr>
+				<tr>
+					<td>小杰</td>
+					<td>100</td>
+					<td>100</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td colspan="3">合并项</td>
+					<td></td>
+					
+				</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>平均分</td>
+						<td>90</td>
+						<td>90</td>
+						<td>90</td>
+					</tr>
+					
+				</tfoot>
+			</table>
+			</div>
+			</div>
+		</div>
+	</body>
+</html>

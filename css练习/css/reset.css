@@ -1,0 +1,17 @@
+a{ color: black;
+				text-decoration: none;
+			}
+.clear:after{
+				content: "";
+				display: block;
+				clear: both;
+				/*清除浮动方式6 使用伪类:after,将伪类:after设置为通用class,需要清除浮动的元素,,就在元素的父级加上.clear:after.涉及类的多重引用和伪类使用,*/
+			}
+body,h1,p,{ margin: 0;
+	
+}
+body{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	
+}						

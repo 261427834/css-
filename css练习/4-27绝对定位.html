@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>4-27绝对定位写圣杯布局</title>
+		<style type="text/css">
+			body{
+				font-family: "微软雅黑";
+				font-size: 18px;
+			}
+			header{
+				min-height: 40px;
+				background-color: #CCCCCC;
+			}
+			header li{
+				list-style: none;
+				float: right;
+				padding: 0 15px 0 15px;
+				line-height: 40px;
+				border: 3px solid #C4E3F3;
+			}
+			header li a{
+				text-decoration: none;
+				color: #000000;
+			}
+			.main,.left,.right{
+				min-height: 50px;
+				top: 0;
+				
+			}
+			.container{
+				position: relative;
+				
+			}
+			.main{
+				background-color: blue;
+			margin: 0 300px 0 200px;
+			        }
+			.left{
+				background-color: red;
+				width: 200px;
+				position: absolute;
+				left: 0;
+				}
+			.right{
+				background-color: green;
+				width: 300px;
+				position: absolute;
+				right: 0;
+				}
+				footer{
+					clear: both;
+					background-color:#C0C0C0;
+				}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="nav">
+				<ul>
+					<li><a href="#" class="nav">aaaa</a></li>
+					<li><a href="#" class="nav">aaaa</a></li>
+					<li><a href="#" class="nav">aaaa</a></li>
+					<li><a href="#" class="nav">aaaa</a></li>
+					<li><a href="#" class="nav">aaaa</a></li>
+					<li><a href="#" class="nav">aaaa</a></li>
+					<li><a href="#" class="nav">aaaa</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="container">
+			<div class="main">main
+			<br />
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nobis eos ad aliquam nisi illum voluptates modi sequi sunt omnis minus aut id labore doloribus laborum. Ipsum quaerat nisi eum.
+			</div>
+			<div class="left">left</div>
+			<div class="right">right</div>
+		</div>
+		<footer>
+			footer
+		</footer>
+		<hr />
+		
+	</body>
+</html>

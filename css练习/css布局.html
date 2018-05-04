@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>css布局</title>
+		<link rel="stylesheet" type="text/css" href="css/css布局.css"/>
+	</head>
+	<body>
+<div class="ex1">
+	<div class="parent">
+		<div class="child">
+			方法一：使用inline-block和text-align实现 ，<br />优点兼容性好
+			不足：需要同时设置子元素和父元素。
+		</div>
+	</div>
+</div>
+<div class="ex2">
+	
+		<div class="child">
+			方法二：使用margin：0 auto来实现。<br />优点：兼容性好
+			不足：需要指定宽度。
+		</div>
+	</div>
+</div>
+<div class="ex3">
+	<div class="child">
+		方法三 使用table实现。优点：只需要对自身进行设置。不足：IE6,7需要调整结构。
+	</div>
+</div>
+<div class="ex4">
+	<div class="parent">
+		<div class="child">
+			方法四：使用绝对定位实现。不足：兼容性差。只支持IE9以上。
+		</div>
+	</div>
+</div>
+<div class="ex5">
+	<div class="parent">
+		<div class="child">
+			方法五：使用flex布局来实现。
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	var i;
+	var sea=['白日依山尽','黄河入海流','欲穷千里目','更上一层楼'];
+	for (i=0;i<sea.length;i++) {console.log(sea[i]);
+		
+	}
+</script>
+	</body>
+</html>
