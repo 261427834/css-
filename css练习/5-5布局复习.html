@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>5.5布局复习</title>
+		<style type="text/css">
+			.container{
+				
+				padding: 0 300px 0 200px;
+				
+			}
+			.main,.left,.right{
+				min-height: 50px;
+				float: left;
+				position: relative;
+				
+				
+			}
+			.main{
+				background: cadetblue;
+				width: 100%;
+				
+			}
+			.left{
+				left:-200px ;
+				background: red;
+				width: 200px;
+	      margin-left: -100%;		
+			}
+			.right{
+				background: green;
+				width: 300px;
+				margin-left: -300px;
+				right: -300px;
+			}
+			footer{
+				clear: both;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="main">main</div>
+			<div class="left">left</div>
+			<div class="right">right</div>
+		</div>
+		<footer>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat tempore ipsum quo eos dignissimos consequuntur? Beatae optio laudantium autem quis porro adipisci modi vel nemo hic aliquid ullam deserunt temporibus?
+		</footer>
+		
+	</body>
+</html>

@@ -1,38 +1,70 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<link rel="stylesheet/less"href="style.less">
-		<script src="less.min.js">
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<style type="text/css">
+		body{
+			font-family: "微软雅黑";
 			
-		</script>
-		<style type="text/css">
-			.parent{
-				text-align: center;
-				
-			}
-			.child{
-				width: 100px;
-				margin: 0px auto;
-			}
-			#child1{
-				display: inline;
-				color: red;
-			}
-		</style>
-		<title></title>
-	</head>
-	<body>
-		<div class="parent">
-			<div id="child1">
-			Lorem ipsum dolor sit amett, consectetur adipisicing elit. Doloribus amet natus rerum blanditiis officiis iste ab quas quod sequi modi tempore aliquid aliquam incidt, consectetur adipisicing elit. Doloribus amet natus rerum blanditiis officiis iste ab quas quod sequi modi tempore aliquid aliquam incidt, consectetur adipisicing elit. Doloribus amet natus rerum blanditiis officiis iste ab quas quod sequi modi tempore aliquid aliquam incidt, consectetur adipisicing elit. Doloribus amet natus rerum blanditiis officiis iste ab quas quod sequi modi tempore aliquid aliquam incidt, consectetur adipisicing elit. Doloribus amet natus rerum blanditiis officiis iste ab quas quod sequi modi tempore aliquid aliquam incid, consectetur adipisicing elit. Doloribus amet natus rerum blanditiis officiis iste ab quas quod sequi modi tempore aliquid aliquam incidunt perspiciatis ullam asperiores expedita consectetur quia?
+		}
+		header{
+			text-align: center;
+			font-size: x-large;
+			background-color: #999999;
+			min-height: 50px;
+			line-height: 50px;
+		}
+		.main,.left,.right{
+			min-height: 150px;
+			float: left;
+			text-align: center;
+		}
+		.main{
+			background-color: #EEEEEE;
+			width: 100%;
+		}
+		.left{
+			background-color: #777777;
+			width: 200px;
+			margin-left: -100%;
+			color:white;
+		}
+		.right{
+			background-color: #888888;
+			width: 300px;
+			margin-left: -300px;
+		}
+		.main-content{
+			margin:0 300px 0 200px ;
+		}
+		footer{
+			clear: both;
+			text-align: center;
+			font-size: x-large;
+			background-color: #C0C0C0;
+			min-height: 50px;
+			line-height: 50px;
+		}
+	</style>
+	<title>老谁家小水</title>
+</head>
+<body>
+	<header>Talk is cheep.Show me the code.</header>
+	<div class="container">
+		<div class="main">
+		<div class="main-content">
+			main <br />
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi architecto officiis pariatur voluptate totam enim corrupti voluptatibus nam autem nemo. Distinctio ex unde nulla illo delectus vitae est dignissimos reiciendis.
 			</div>
-		<!--
-        	作者：songyan130@163.com
-        	时间：2018-01-20
-        	描述：
-        <div class="child">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae modi nihil velit officiis ullam voluptates quod recusandae atque itaque cum maiores architecto eaque eveniet repellendus ea veniam alias numquam iure!</div>-->	
 		</div>
-		
-	</body>
+			<div class="left">
+				left
+			</div>
+			<div class="right">right</div>
+		</div>
+	</div>
+	<footer>footer</footer>
+</body>
 </html>
