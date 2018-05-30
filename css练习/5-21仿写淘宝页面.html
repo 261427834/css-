@@ -5,16 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>仿写淘宝页面</title>
-    <link rel="stylesheet" href="/css/normalize.css">
+    <!-- <link rel="stylesheet" href="/css/normalize.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/Iconfont/iconfont.css"/>
     <link rel="stylesheet" href="taobao.css">
-
 </head>
 <body>
     <div class="wrapper">
-        <div class="top-nav-wrap"><!--头部导航-->
-          
+        <div class="top-nav-wrap"><!--头部导航开始-->
+          <div class="top-nav"><!--头部导航容器-->
+              <ul class="top-nav-l"><!--头部导航左边部分-->
+                <li class="top-nav-menu china">
+                    <span class="china-span ">中国大陆</span>
+                    <span class="iconfont icon-diquxialajiantou"></span>
+                </li>
+                <li class="top-nav-menu loginAndReg">
+                    <a href="#" class="login" >亲！请登录</a>
+                    <a href="#" class="reg">免费注册</a>
+                </li>
+                <li class="top-nav-menu phone">
+                    <a href="#" >手机逛淘宝</a >
+                </li>
+              </ul>
+              <ul class="top-nav-r"><!--头部导航右边部分-->
+                <li class="top-nav-menu"><a href="#" class="myTaoBao">我的淘宝</a>
+                	<span class="iconfont icon-diquxialajiantou"></span>
+                </li>
+                <li class="top-nav-menu shopCar">
+                	<span class="iconfont icon-31gouwuche "></span>
+                	<a href="#">购物车</a>
+                </li>
+                <li class="top-nav-menu like">
+                	<span class="iconfont icon-31shoucang"></span>
+                	<a href="#">收藏夹</a>
+                </li>
+                <li class="top-nav-menu goos">
+                	<a href="#">商品分类</a>
+                	<span></span></li>
+                <li class="top-nav-menu cutOff" >
+                	<span>|</span>
+                </li>
+                <li class="top-nav-menu seller"><a href="#">卖家中心</a>
+                	<span class="iconfont icon-diquxialajiantou"></span>
+                </li>
+                <li class="top-nav-menu lixikefu"><a href="#">联系客服</a>
+                	<span class="iconfont icon-diquxialajiantou"></span>
+                </li>
+                <li class="top-nav-menu daohang">
+                	<span class="iconfont icon-liebiao1"></span>
+                	<a href="#">网站导航</a>
+                	<span class="iconfont icon-diquxialajiantou"></span>
+                </li>
+              </ul>
+          </div>
         </div>
-        <div class="search-wrap"></div><!--头部搜索框-->
+        <div class="search-wrap"><!--头部搜索框开始-->
+        	<div class="search-con"><!--头部搜索框容器-->
+        		<div class="logo-box"><!--头部搜索框logo-->
+                 <img src="img/taobaologo.gif" alt="taobaologo">
+                </div>
+        		<div class="search-box"></div><!--头部搜索框主体-->
+        		<div class="code-box"></div><!--头部搜索框二维码容器-->
+        	</div><!--头部搜索框结束-->
+        </div>
         <div class="scrren-nav-wrap"></div><!--中部主导航-->
         <div class="scrren-box-wrap"></div><!--中部页面-->
     </div>
