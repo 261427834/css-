@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>display各属性详解</title>
+		<style type="text/css">
+			span.hongse{
+				padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+    font-family: "Source Code Pro",Consolas,Menlo,Monaco,"Courier New",monospace;
+			}
+		code pre{
+			background-color: #CCCCCC;
+		}
+		</style>
+	</head>
+	<body>
+	<h1>display 基本属性</h1>
+	<hr />
+	<div class="shuoming">
+		<h2>display:none</h2>
+		<p class="zhengwen">
+			<span class="hongse">
+				none
+			</span>是css1 就提出来的属性，将元素设置为none的时候既不会占据空间，也无法显示，相当于该元素不存在。该属性可以用来改善重排与重绘，同时我也经常用它来做模糊窗等效果。</p>
+		
+	</div>
+	<div class="shuoming">
+		<h2>display:inline</h2>
+		<span class="hongse">
+			inline
+		</span>也是css1提出的属性，她主要用来设置行内元素属性，设置了该属性之后设置高度、宽度都无效，同时<span class="hongse">text-align</span>属性也无效，但是设置了<span class="hongse">line-height</span>会让<span class="hongse">inline</span>元素居中。</span>
+	
+	<div class="img-warp">
+		<img src="https://segmentfault.com/img/bVOAWU?w=1388&h=442" alt="display:inline代码演示" />
+	</div>
+	<p>同时从上图可以看到两个<span class="hongse">inline</span>标签之间
+	出现了奇怪的间隔，改间隔的原因是<span class="hongse">div</span>
+	换行产生的换行空白，解决的办法是</p>
+	<ul >
+		<li>将两个<span class="hongse">inline</span>标签写到一行</li>
+		</ul>
+		
+	
+	</div>
+	<div class="shuoming">
+		<h2>插入一节代码的方法：</h2>
+	<code>
+<pre>
+var person = {
+    firstName:"Bill",
+    lastName:"Gates",
+    age:50,
+    eyeColor:"blue"
+}
+&lt;div class="glyphicon-scissors"&gt;dddd&lt;/div&gt;
+</pre>
+</code>
+<p>使用<span class="hongse">&lt;code&gt;&lt;/code&gt;</span>代码插入一行代码，使用<span class="hongse">&lt;pre&gt;&lt;/pre&gt;</span>标签才能显示换行和空白.注意只有使用<strong>字符实体</strong>才能正确的显示标签。
+常用的有一下几种。
+<img src="img/字符实体表.png" alt="字符实体表" />
+如需完整的实体符号参考，请访问<a href="http://www.w3school.com.cn/tags/html_ref_entities.html"> HTML 实体符号参考手册</a>。
+</p>
+</div>
+<div class="shuoming">
+	<h2>
+		display: inline-block
+	</h2>
+	<p>
+		<span class="hongse">inline-block</span> CSS 2.1 新增的属性。 <span class="hongse">inline-block</span>既具有<span class="hongse">block</span>的宽高特性又具有<span class="hongse">inline</span>的同行元素特性。 通过<span class="hongse">inline-block</span>结合
+		<span class="hongse">text-align: justify</span> 还可以实现固定宽高的列表两端对齐布局。
+	</p>
+	</div>
+	</body>
+</html>
