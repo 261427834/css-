@@ -74,37 +74,77 @@ height: 35px;
 }
 /* 导航结束 */
 /* 搜索框开始 */
-.search-wrap{
+.wrapper .search-wrap{
 	width: 100%;
 	height: 97px;
 	background: #ffffff;
 	padding: 24px 0 9px 0;
 }
-.search-wrap .search-con{
+/* 头部搜索框 */
+.wrapper .search-wrap .search-con{
 	width: 1190px;
 	height: 88px;
 	margin: 0 auto;
 
 }
-.search-wrap .search-con .logo-box{
+/* 头部搜索框logo */
+.wrapper .search-wrap .search-con .logo-box{
 width: 190px;
 height: 80px;
 display: inline-block;
 vertical-align: middle;
 }
-.search-wrap .search-con .logo-box img{
+.wrapper .search-wrap .search-con .logo-box img{
 width: 100%;
 height: 100%;
 
 }
-.search-wrap .search-con .search-box{
+/* 头部搜索框主页面 */
+.wrapper .search-wrap .search-con .search-box{
 width: 627px;
 height: 87px;
 display: inline-block;
 vertical-align: middle;
+}
+.wrapper .search-wrap .search-con .search-box .seacrh-bd{
+width: 627px;
+height: 62px;
 
 }
-.search-wrap .search-con .code-box{
+.search-wrap .search-con .search-box .seacrh-bd .search-tab{
+width: 610px;
+height: 22px;
+margin-left: 17px;
+
+}
+.search-wrap .search-con .search-box .seacrh-bd li{
+float: left;
+width: 36px;
+height: 22px;
+text-align: center;
+line-height: 22px;
+color: #f40;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+margin-right: 4px;
+}
+.search-wrap .search-con .search-box .seacrh-bd li:hover{
+background-color: #ffeee5;
+
+}
+.search-wrap .search-con .search-box .seacrh-bd .select{
+background: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+color: #fff;
+font-weight: 700;
+
+}
+.search-wrap .search-con .search-box .seacrh-ft{
+width: 596px;
+height: 18px;
+
+}
+/* 头部搜索框二维码 */
+.wrapper .search-wrap .search-con .code-box{
 width: 90px;
 height: 76px;
 display: inline-block;
