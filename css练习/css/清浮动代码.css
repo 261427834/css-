@@ -1,0 +1,7 @@
+/*清除浮动代码*/
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+/*原理：IE8以上和非IE浏览器才支持:after，原理和方法2有点类似，zoom(IE转有属性)可解决ie6,ie7浮动问题
+优点：浏览器支持好，不容易出现怪问题（目前：大型网站都有使用，如：腾迅，网易，新浪等等）
+缺点：代码多，不少初学者不理解原理，要两句代码结合使用，才能让主流浏览器都支持
+建议：推荐使用，建议定义公共类，以减少CSS代码*/
