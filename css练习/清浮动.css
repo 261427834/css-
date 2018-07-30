@@ -1,5 +1,0 @@
-.fix{
-				*zoom:1;
-				}
-				
-.fix:after{display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;}
